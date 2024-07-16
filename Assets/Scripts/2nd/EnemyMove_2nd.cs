@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMove : MonoBehaviour
+public class EnemyMove_2nd : MonoBehaviour
 {
     // 아래쪽 방향으로 계속 이동하고 싶다.
 
