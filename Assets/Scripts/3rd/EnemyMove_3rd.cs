@@ -25,6 +25,10 @@ public class EnemyMove_3rd : MonoBehaviour
         if (other.gameObject.CompareTag("PlayerObject"))
         {
             Destroy(other.gameObject);
+
+            // 현재 씬을 재 시작한다.
+
+
         }
 
         // 충돌한 대상에 관계없이 자기 자신을 제거한다.
