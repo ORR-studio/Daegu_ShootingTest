@@ -9,11 +9,13 @@ public class GameManager_3rd : MonoBehaviour
 
     void Start()
     {
-        
+        //2. UI의 current Score 값을 0으로 초기화한다.
+
+
     }
 
 
-    // 2. 매개변수에서 전달 받은 값만큼 UI의 Current Score 값을 증가시키는 함수를 구현한다.  
+    // 3. 매개변수에서 전달 받은 값만큼 UI의 Current Score 값을 증가시키는 함수를 구현한다.  
     public void AddScore(int score)
     {
 
