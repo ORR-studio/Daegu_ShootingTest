@@ -22,7 +22,7 @@ public class BulletMove_3rd : MonoBehaviour
     {
 
         // 충돌한 대상이 "Enemy"라는 이름이면 그 게임 오브젝트를 제거한다.
-        if (other.gameObject.name.Contains("Enemy'"))
+        if (other.gameObject.name.Contains("Enemy"))
         {
             Destroy(other.gameObject);
 
