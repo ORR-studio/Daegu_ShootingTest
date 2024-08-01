@@ -33,7 +33,7 @@ public class CamRotate_4th : MonoBehaviour
         // 1. 마우스를 상하로 드래그하는 방향에 맞춰 카메라를 상하로 회전시키고 싶다.
         // 2. 단, 카메라의 상하 회전은 30도를 초과할 수 없다.
         // - 회전 속도 변수: rotSpeed
-        // - 마우스 회전 값 누적 변수: mx
+        // - 마우스 회전 값 누적 변수: my
         // - 상하 제한 각도 변수: angleLimit
 
 
