@@ -35,7 +35,9 @@ public class PlayerMove_4th : MonoBehaviour
         // 마우스를 좌우로 드래그하는 방향에 맞춰 캐릭터를 좌우로 회전시키고 싶다.
         // - 회전 속도 변수: rotSpeed
         // - 마우스 회전 값 누적 변수: mx
-
+        float a = Input.GetAxis("Mouse X");
+        mx += a * rotSpeed * Time.deltaTime;
+        transform.eulerAngles = new Vector3(0, mx, 0);
 
     }
 
